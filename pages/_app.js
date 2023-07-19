@@ -2,12 +2,19 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import "../styles/globals.css";
-import Layout from "@/layout/layout";
+import Layout from "../layout/Layout";
 
-export default function App({ Component, pageProps }) {
+import { Provider } from "react-redux";
+import store from "../redux/store";
+
+function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <Provider store={store}>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </Provider>
   );
 }
+
+export default MyApp;
