@@ -3,6 +3,7 @@ import Header from "../components/layout/Header";
 import Home from "./home";
 import Input from "@/components/form/Input";
 import Footer from "../components/layout/Footer";
+import axios from "axios";
 
 export default function Index({ categoryList }) {
   return (
