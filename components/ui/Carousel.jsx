@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import Title from "./Title";
 import Slider from "react-slick";
 
@@ -24,14 +23,15 @@ const Carousel = () => {
   };
 
   return (
-    <div className="h-screen container mx-auto w-full -my-[88px]">
-      <div className="absolute top-0 left-0 h-full w-full ">
+    <div className="h-screen w-full container mx-auto -mt-[88px]">
+      <div className="absolute top-0 left-0 w-full h-full">
         <div className="relative h-full w-full">
           <Image
             src="/images/hero-bg.jpg"
             alt=""
             layout="fill"
             objectFit="cover"
+            priority
           />
         </div>
       </div>
