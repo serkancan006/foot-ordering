@@ -1,8 +1,8 @@
 import React from "react";
-import Input from "../form/Input";
-import Title from "../ui/Title";
+import Input from "./form/Input";
+import Title from "./Title";
 import { useFormik } from "formik";
-import { reservationSchema } from "../../schema/reservation";
+import { reservationSchema } from "../schema/reservation";
 {
 }
 

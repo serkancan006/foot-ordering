@@ -1,6 +1,6 @@
 import React from "react";
 import OutsideClickHandler from "react-outside-click-handler";
-import Title from "../ui/Title";
+import Title from "../Title";
 import Image from "next/image";
 import { GiCancel } from "react-icons/gi";
 

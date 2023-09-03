@@ -2,7 +2,7 @@ import axios from "axios";
 import { useFormik } from "formik";
 import Link from "next/link";
 import Input from "../../components/form/Input";
-import Title from "../../components/ui/Title";
+import Title from "../../components/Title";
 import { adminSchema } from "../../schema/admin";
 import { toast } from "react-toastify";
 import { useRouter } from "next/router";

@@ -1,4 +1,4 @@
-import Title from "../ui/Title";
+import Title from "../Title";
 
 const Order = () => {
   return (

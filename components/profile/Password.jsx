@@ -1,6 +1,6 @@
 import React from "react";
 import Input from "../../components/form/Input";
-import Title from "../../components/ui/Title";
+import Title from "../Title";
 import { useFormik } from "formik";
 import { registerSchema } from "../../schema/register";
 import { newPasswordSchema } from "../../schema/newPassword";

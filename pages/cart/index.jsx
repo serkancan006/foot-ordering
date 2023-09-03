@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Title from "../../components/ui/Title";
+import Title from "../../components/Title";
 import { useSelector, useDispatch } from "react-redux";
 import { reset } from "../../redux/cartSlice";
 
@@ -39,7 +39,7 @@ const Cart = () => {
                   </td>
                   <td className="py-4 px-6 font-medium whitespace-nowrap hover:text-white">
                     {product.extras.map((item) => (
-                      <span key={item.id}>{item.name}, </span>
+                      <span key={item.id}>{item.text}, </span>
                     ))}
                   </td>
                   <td className="py-4 px-6 font-medium whitespace-nowrap hover:text-white">

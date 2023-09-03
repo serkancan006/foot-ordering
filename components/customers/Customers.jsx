@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "../ui/Title";
+import Title from "../Title";
 import CustomerItem from "./CustomerItem";
 import Slider from "react-slick";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
