@@ -1,7 +1,7 @@
 import { useFormik } from "formik";
 import Link from "next/link";
 import Input from "../../components/form/Input";
-import Title from "../../components/Title";
+import Title from "../../components/ui/Title";
 import { loginSchema } from "../../schema/login";
 import { getSession, signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/router";

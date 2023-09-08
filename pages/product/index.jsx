@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
-import Title from "../../components/Title";
+import Title from "../../components/ui/Title";
 import { addProduct } from "../../redux/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
 

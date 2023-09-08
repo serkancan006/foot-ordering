@@ -1,6 +1,6 @@
 import React from "react";
 import Input from "../../components/form/Input";
-import Title from "../Title";
+import Title from "../ui/Title";
 import { useFormik } from "formik";
 import { profileSchema } from "../../schema/profile";
 import axios from "axios";

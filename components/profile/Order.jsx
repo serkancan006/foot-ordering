@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Title from "../Title";
+import Title from "../ui/Title";
 import { useSession } from "next-auth/react";
 import axios from "axios";
 

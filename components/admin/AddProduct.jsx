@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import OutsideClickHandler from "react-outside-click-handler";
-import Title from "../Title";
+import Title from "../ui/Title";
 import { GiCancel } from "react-icons/gi";
 import axios from "axios";
 import { toast } from "react-toastify";

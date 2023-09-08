@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Title from "../Title";
+import Title from "../ui/Title";
 
 const Order = () => {
   const [orders, setOrders] = useState([]);
