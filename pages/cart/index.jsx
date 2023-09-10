@@ -107,7 +107,7 @@ const Cart = ({ userList }) => {
             )}
           </div>
         </div>
-        <div className="bg-secondary min-h-[calc(100vh_-_433px)] flex flex-col justify-center text-white p-12 md:w-auto w-full   md:text-start !text-center">
+        <div className="bg-secondary min-h-[calc(100vh_-_300px)] flex flex-col justify-center text-white p-12 md:w-auto w-full   md:text-start !text-center">
           <Title addClass="text-[40px]">CART TOTAL</Title>
 
           <div className="mt-6">
